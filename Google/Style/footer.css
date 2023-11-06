@@ -1,0 +1,117 @@
+footer{
+  background-color: rgb(27, 25, 25);
+  color: rgb(189, 193, 198);
+
+  padding: 17px 43px ;
+  font: 16px;
+}
+
+footer a{
+  color: rgb(189, 193, 198);
+
+}
+
+
+.climate-action-img{
+  height: 18px;
+}
+
+@media(max-width:680px){
+
+
+  footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+  }
+
+  .climate-group{
+    display: flex;
+    order: 0;
+    margin: 0;
+    gap: 9px;
+  }
+
+  .footer-links-1{
+    display: flex;
+    order: 1;
+    gap: 30px;
+  }
+
+  .footer-links-2{
+    display: flex;
+    order: 2;
+    margin: 0;
+    gap: 30px;
+  }
+
+}
+
+@media (min-width:681px) and (max-width: 1299px){
+
+ 
+  footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 18px;
+  }
+
+
+  .climate-group{
+    gap: 15px;
+    display: flex;
+    justify-content: center;
+    width: 1000px;
+    height: 50px;
+  }
+
+  .footer-links-1{
+    gap: 30px;
+    display: flex;
+  
+  }
+
+  .footer-links-2{
+    gap: 30px;
+    display: flex;
+  
+  }
+
+}
+
+@media (min-width: 1300px ){
+
+
+  footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .climate-group{
+    order: 1;
+    display: flex;
+    align-items: center;
+  
+    gap: 8px;
+  }
+
+  .footer-links-1{
+    display: flex;
+    gap: 30px;
+    order: 0;
+  }
+
+  .footer-links-2{
+    display: flex;
+    gap: 30px;
+    margin-left: 145px;
+    order: 2;
+  }
+
+
+}

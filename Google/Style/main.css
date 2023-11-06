@@ -1,0 +1,79 @@
+main{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  
+  align-items: center;
+
+  gap: 24px;
+}
+
+.search-bar{
+  display: flex;
+  gap: 20px;
+  border: 1px solid rgb(189, 193, 198);
+  border-radius: 30px;
+  width: 91%;
+  max-width: 639px;
+  height: 51px;
+  align-items: center;
+  margin-top: 3px;
+  
+
+}
+
+.search-bar:hover {
+  background-color: rgb(46, 44, 44);
+  border-color: transparent;
+  box-shadow: 0px 0px 3px rgba(9, 9, 9, 02)
+}
+
+.logo{
+  width: 300px;
+
+
+}
+
+.search-icon{
+  padding-left: 20px;
+  color: white;
+}
+
+.microphone-icon{
+  font-size: 18px;
+  color: rgb(189, 193, 198);
+}
+
+.camera-icon{
+  font-size: 18px;
+  padding-right: 20px;
+  color: rgb(189, 193, 198);
+}
+
+input{
+  flex: 1;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  color: #e8eaed;
+}
+
+.search-buttons button {
+  padding: 11px 18px;
+  margin: 10px 0px;
+  font-size: 16px;
+  background-color: rgb(47, 48, 49);
+  border: solid;
+  border-color: transparent;
+  border: 1px;
+  border-radius: 4px;
+  color: #e8eaed;
+  margin-left: 8px;
+  cursor: pointer;
+
+}
+
+.google-search-button:hover,
+.im-feeling-lucky-button:hover {
+  outline: 1px solid rgb(129, 123, 123);
+}
